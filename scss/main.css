@@ -1,5 +1,5 @@
 .container {
-  max-width: 1280px;
+  max-width: 1080px;
   margin: auto;
   overflow: hidden;
   padding: 0 1.5rem;
@@ -132,5 +132,6 @@ img {
   font-size: 4rem;
   line-height: 1.2;
   padding-left: 1.2rem;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
