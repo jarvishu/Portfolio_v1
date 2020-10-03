@@ -206,4 +206,14 @@ i {
       grid-template-columns: repeat(4, 1fr);
   text-align: center;
 }
+
+.border {
+  border: 2px solid #333 !important;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.border:hover {
+  border: 2px solid #ffbc00 !important;
+}
 /*# sourceMappingURL=main.css.map */
