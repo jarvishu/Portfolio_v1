@@ -20,6 +20,10 @@ ul {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 h2,
 h3,
 h4 {
@@ -86,4 +90,35 @@ img {
     &-inner {
     }
   }
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  width: 100px;
+  color: $main-color;
+  height: 2px;
+  background: $main-color;
+  margin: auto;
+  margin-bottom: 1.2rem;
+}
+
+.specials {
+  display: flex;
+}
+
+i {
+  color: $main-color;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
 }
