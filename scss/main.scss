@@ -132,3 +132,36 @@ i {
     border: 2px solid $main-color !important;
   }
 }
+
+.about {
+  overflow: hidden;
+  & h3 {
+    font-size: 36px;
+    padding: 10px 40px;
+  }
+
+  & .paragraph {
+    width: 100%;
+    font-size: 22px;
+    padding: 10px 40px;
+    display: flex;
+  }
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(15px, 200px));
+  overflow: hidden;
+  margin: 20px 40px;
+  overflow: hidden;
+
+  & li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+      "Lucida Console", Monaco, monospace;
+    font-size: 16px;
+    color: rgb(136, 146, 176);
+  }
+}
